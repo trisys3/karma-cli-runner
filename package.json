@@ -1,0 +1,22 @@
+{
+  "name": "karma-cli-runner",
+  "version": "0.0.1",
+  "description": "Better CLI for karma",
+  "main": "karma-args.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trisys3/karma-cli-runner.git"
+  },
+  "keywords": [
+    "karma"
+  ],
+  "author": "Sean Moran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trisys3/karma-cli-runner/issues"
+  },
+  "homepage": "https://github.com/trisys3/karma-cli-runner#readme"
+}
