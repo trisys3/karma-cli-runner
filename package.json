@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/trisys3/karma-cli-runner/issues"
   },
-  "homepage": "https://github.com/trisys3/karma-cli-runner#readme"
+  "homepage": "https://github.com/trisys3/karma-cli-runner#readme",
+  "dependencies": {
+    "karma": "^1.1.1"
+  }
 }
