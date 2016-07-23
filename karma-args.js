@@ -21,6 +21,15 @@ argv.forEach(function(karmaArg, karmaArgIndex) {
     return;
   }
 
+  if(karmaArg.indexOf('=') > 0) {
+    var karmaArgEq = karmaArg.split('=');
+    var karmaArgKey = karmaArgEq[0];
+    var karmaArgVal = karmaArgEq[1];
+
+    argv.splice(karmaArgIndex, 1, karmaArgKey, karmaArgVal);
+    karmaArg = karmaArgKey;
+  }
+
   // handle special options that karma can't, mostly arrays
   if(karmaArg === '-b' || karmaArg === '--browsers') {
     if(!Array.isArray(karmaArgs.browsers)) {
