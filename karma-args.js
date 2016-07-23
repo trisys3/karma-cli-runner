@@ -12,16 +12,7 @@ argv = argv.slice(2);
 var karmaConf = {};
 
 // default karma options
-var karmaArgs = {
-  // default to single-run mode & disable watching to reduce output clutter
-  singleRun: true,
-  autoWatch: false,
-
-  // log almost nothing to reduce output to just the tests
-  // NOTE: This value is a constant given directly by karma, but I do not know
-  // of a way to programmatically get at it, so we are hard-coding it.
-  logLevel: 'OFF',
-};
+var karmaArgs = {};
 
 argv.forEach(function(karmaArg, karmaArgIndex) {
   // ignore non-options (those without a dash) - these will have been handled by
