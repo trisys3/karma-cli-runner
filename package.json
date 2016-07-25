@@ -21,5 +21,6 @@
   "homepage": "https://github.com/trisys3/karma-cli-runner#readme",
   "dependencies": {
     "karma": "^1.1.1"
-  }
+  },
+  "bin": "./bin/karma-args.js"
 }
