@@ -1,6 +1,6 @@
 {
   "name": "karma-cli-runner",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Better CLI for karma",
   "main": "karma-args.js",
   "scripts": {
