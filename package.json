@@ -22,5 +22,5 @@
   "dependencies": {
     "karma": "^1.1.1"
   },
-  "bin": "./bin/karma-args.js"
+  "bin": "./karma-args.js"
 }
